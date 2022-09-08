@@ -1,0 +1,33 @@
+{
+  "name": "sfp-profiles",
+  "version": "1.0.0",
+  "description": "library for sfp profile commands",
+  "main": "lib/SFPProfiles.js",
+  "types": "lib/SFPProfiles.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rimraf ./lib && rimraf tsconfig.tsbuildinfo",
+    "compile": "tsc -b tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxatscale/sfp-profiles.git"
+  },
+  "keywords": [
+    "dx@scale",
+    "sfp",
+    "profiles",
+    "salesforce",
+    "sfpowerkit",
+    "sfpowerscripts"
+  ],
+  "author": "dxatscale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dxatscale/sfp-profiles/issues"
+  },
+  "homepage": "https://github.com/dxatscale/sfp-profiles#readme"
+}
